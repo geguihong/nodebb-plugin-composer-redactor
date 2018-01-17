@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-plugin-composer-redactor",
+	"id": "nodebb-plugin-composer-redactor-insta360",
 	"url": "https://github.com/NodeBB/nodebb-plugin-composer-redactor",
 	"library": "library.js",
 	"hooks": [
@@ -22,6 +22,8 @@
 	"scripts": [
 		"./static/lib/redactor.core.js",
 		"./static/lib/redactor.js",
+		"./static/lib/fontsize.js",
+		"./static/lib/fontcolor.js",
 		"./static/lib/video.js",
 		"./static/lib/table.js",
 		"./static/lib/redactor-emoticons.js",

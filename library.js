@@ -73,7 +73,7 @@ plugin.checkCompatibility = function(callback) {
 			markdown: data.active.indexOf('nodebb-plugin-markdown') === -1 || data.markdown.html === 'on',
 			//			^ plugin disabled										^ HTML sanitization disabled
 			composer: data.active.filter(function(plugin) {
-				return plugin.startsWith('nodebb-plugin-composer-') && plugin !== 'nodebb-plugin-composer-redactor';
+				return plugin.startsWith('nodebb-plugin-composer-') && plugin !== 'nodebb-plugin-composer-redactor-insta360';
 			}).length === 0
 		})
 	});

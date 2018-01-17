@@ -1,7 +1,7 @@
 {
-  "name": "nodebb-plugin-composer-redactor",
-  "version": "3.1.0",
-  "description": "Redactor Composer for NodeBB",
+  "name": "nodebb-plugin-composer-redactor-insta360",
+  "version": "1.0.1",
+  "description": "",
   "main": "library.js",
   "repository": {
     "type": "git",
@@ -13,14 +13,8 @@
     "composer",
     "redactor"
   ],
-  "author": {
-    "name": "NodeBB Team",
-    "email": "sales@nodebb.org"
-  },
+  "author": {},
   "license": "http://imperavi.com/redactor/license/",
-  "bugs": {
-    "url": "https://github.com/NodeBB/nodebb-plugin-composer-redactor/issues"
-  },
   "readmeFilename": "README.md",
   "nbbpm": {
     "compatibility": "^1.5.2"
