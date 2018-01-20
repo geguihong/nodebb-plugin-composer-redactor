@@ -133,7 +133,7 @@ define('redactor', [
     };
 
     // Redactor Options
-    $.Redactor.opts.buttons.splice($.Redactor.opts.buttons.indexOf('lists'), 1, 'horizontalrule', 'ol', 'ul', 'indent', 'outdent');
+    $.Redactor.opts.buttons.splice($.Redactor.opts.buttons.indexOf('lists'), 1, 'ol', 'ul', 'indent', 'outdent');
     $.Redactor.opts.plugins = ['fontsize', 'fontcolor', 'video', 'table', 'topic_thumb', 'underline', 'emoticons', 'iconic'];
     $.Redactor.opts.focusEnd = true;
     $.Redactor.opts.imageUpload = config.relative_path + '/api/post/upload';

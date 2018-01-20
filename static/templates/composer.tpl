@@ -96,9 +96,9 @@
 				<!-- ENDIF isTopicOrMain -->
 			</div>
 		</div>
-		<span class="write-container">
+		<div class="write-container">
 			<textarea></textarea>
-		</span>
+		</div>
 
 	<!-- IF isTopic -->
 	<ul class="category-selector visible-xs visible-sm"></ul>

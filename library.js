@@ -20,7 +20,7 @@ var allowedTags = ['span', 'a', 'pre', 'blockquote', 'small', 'em', 'strong',
 	'sup', 'sub', 'b', 'i', 'u', 'del', 'ol', 'ul', 'li', 'dl',
 	'dt', 'dd', 'p', 'br', 'video', 'audio', 'source', 'iframe', 'embed',
 	'param', 'object', 'img', 'table', 'tbody', 'tfoot', 'thead', 'tr', 'td', 'th',
-	'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'hr'];
+	'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'hr', 'figure'];
 
 var allowedAttributes = {
 	'a': ['href', 'hreflang', 'media', 'rel', 'target', 'type'],

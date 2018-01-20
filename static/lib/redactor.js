@@ -166,8 +166,8 @@
         imageEditable: true,
 		imageCaption: true,
 
-		imagePosition: false,
-		imageResizable: false,
+		imagePosition: true,
+		imageResizable: true,
 		imageFloatMargin: '10px',
 
 		dragImageUpload: true,
