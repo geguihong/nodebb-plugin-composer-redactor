@@ -33,7 +33,7 @@
 		"../nodebb-plugin-composer-default/static/lib/composer/autocomplete.js",
 		"../nodebb-plugin-composer-default/static/lib/composer/categoryList.js",
 		"../nodebb-plugin-composer-default/static/lib/composer/controls.js",
-		"../nodebb-plugin-composer-default/static/lib/composer/drafts.js",
+		"./static/lib/drafts.js",
 		"../nodebb-plugin-composer-default/static/lib/composer/formatting.js",
 		"../nodebb-plugin-composer-default/static/lib/composer/preview.js",
 		"../nodebb-plugin-composer-default/static/lib/composer/resize.js",

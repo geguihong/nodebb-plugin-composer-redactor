@@ -7386,6 +7386,8 @@
 			return {
 				init: function(e)
 				{
+					$(window).trigger('redactor:keyup', this.code.get());
+					
 					if (this.rtePaste)
 					{
 						return;
